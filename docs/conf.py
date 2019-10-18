@@ -20,6 +20,7 @@
 project = 'Cloudy Mountain Plot'
 copyright = '2019, Dr Giuseppe Insana'
 author = 'Dr Giuseppe Insana'
+master_doc = 'index'
 
 # The full version, including alpha/beta/rc tags
 release = '0.9.2'
