@@ -11,12 +11,13 @@ Cloudy Mountain Plot
    quickstart
    tutorial
    options
+   authors
 
 Contribute
 ----------
 
-- `Python Source Code on GitHub <github.com/g-insana/cmplot.py>`_
-- `Julia Source Code on GitHub <github.com/g-insana/CMplot.jl>`_
+- `Python Source Code on GitHub <https://github.com/g-insana/cmplot.py>`_
+- `Julia Source Code on GitHub <https://github.com/g-insana/CMplot.jl>`_
 
 Support
 -------

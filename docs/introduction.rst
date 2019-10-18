@@ -22,9 +22,10 @@ Elements of the plot
    cloud
       Marker symbols show the number and location of the raw data points.
       They are shown jittered for clarity.
-      It is possible to fully control both the aspect (opacity and shape) of
-      the markers and their number (in case showing them all would prove too slow or
-      unelegant). It is also possible not to show any point.
+      It is possible to fully control both the aspect (:option:`opacity <pointsopacity>` and :option:`shapes <pointshapes>`) of
+      the markers and their :option:`number <pointsmaxdisplayed>` (in case showing them all would prove too slow or
+      unelegant). It is also possible :option:`not to show <showpoints>` any point.
+      For clarity, by default the points are plotted on the opposite side of the kernel density curve. They can alternatively be plotted :option:`over the density curve <pointsoverdens>`, as in the above image.
 
    mountain
       `Kernel density estimation <https://en.wikipedia.org/wiki/Kernel_density_estimation>`_ curve.
@@ -34,18 +35,26 @@ Elements of the plot
 
    band
       Probable position of the true population mean, to desired level of confidence.
-      Method used can be specified as either CI [#f2]_ , HDI [#f3]_ or IQR [#f4]_.
+      Method used can be :option:`specified <inf>` as either CI [#f2]_ , HDI [#f3]_ or IQR [#f4]_.
       It is also possible not to show the band.
       
 
    boxplot
-      A small `boxplot <https://en.wikipedia.org/wiki/Boxplot>`_. It can be shown
-      or hidden, as desired.
+      A small `boxplot <https://en.wikipedia.org/wiki/Boxplot>`_. It can be
+      :option:`shown or hidden <showboxplot>`, as desired.
 
    outliers
       The `outliers <https://en.wikipedia.org/wiki/Outlier>`_ are marked without
-      jitter, on the baseline, and with less transparency. It is also possible not to
-      show the outliers.
+      jitter, on the baseline, and with less transparency. It is of course possible
+      to choose :option:`whether to show <markoutliers>` the outliers.
+
+References
+----------
+
+- Hintze, J. L., Nelson, R. D. (1998). Violin plots: A box plot-density trace synergism. The American Statistician 52, 181–184.
+- Kampstra, P. (2008). Beanplot: A boxplot alternative for visual comparison of distributions. Journal of Statistical Software 28, 1–9.
+- Phillips, N. (2017). YaRrr! The pirate's guide to R. The Observer.
+
 
 .. rubric:: Footnotes
 
