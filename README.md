@@ -1,4 +1,4 @@
-# cmplot
+# Cloudy Mountain Plot
 
 [![Documentation Status](https://readthedocs.org/projects/cmplot/badge/?version=latest)](https://cmplot.readthedocs.io/en/latest/?badge=latest)
 
