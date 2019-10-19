@@ -11,7 +11,9 @@ Cloudy Mountain Plot
    quickstart
    tutorial
    options
-   authors
+   plotly
+   author
+   references
 
 Contribute
 ----------

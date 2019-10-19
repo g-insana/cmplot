@@ -3,13 +3,17 @@ Introduction
 
 A Cloudy Mountain Plot is an informative RDI [#f1]_ `categorical distribution <https://en.wikipedia.org/wiki/Categorical_distribution>`_ plot inspired by Violin, Bean and Pirate Plots.
 
-* Like `Violin plots <https://en.wikipedia.org/wiki/Violin_plot>`_, it shows smoothed kernel density curves, revealing information which would be hidden in boxplots, for example presence of multiple "peaks" ("modes") in the distribution "mountain".
+* Like `Violin plots <https://en.wikipedia.org/wiki/Violin_plot>`_ [Hintze_Nelson_1998]_, it shows smoothed kernel density curves, revealing information which would be hidden in boxplots, for example presence of multiple "peaks" ("modes") in the distribution "mountain".
 
-* Like `Bean plots <https://www.jstatsoft.org/article/view/v028c01>`_, it shows the raw data, drawn as a cloud of points. By default all data points are shown but you can optionally control this and limit the display to a subset of the data.
+* Like `Bean plots <https://www.jstatsoft.org/article/view/v028c01>`_ [Kampstra_2008]_, it shows the raw data, drawn as a cloud of points. By default all data points are shown but you can optionally control this and limit the display to a subset of the data.
 
-* Like `Pirate plots <https://github.com/ndphillips/yarrr>`_, it marks confidence intervals (either from Student's T or as Bayesian Highest Density Intervals or as interquantile ranges) for the probable position of the true population mean.
+* Like `Pirate plots <https://github.com/ndphillips/yarrr>`_ [Phillips_2017]_, it marks confidence intervals (either from Student's T or as Bayesian Highest Density Intervals or as interquantile ranges) for the probable position of the true population mean.
 
 Since by default it does not symmetrically mirror the density curves, it allows immediate comparisions of distributions side-by-side.
+
+The present documentation introduces both what cloudy mountain plots are
+and how to create them, using a plotting function which has been coded in both Julia
+and Python, built on top of the freely available :doc:`plotly` graphic library.
 
 Elements of the plot
 --------------------
@@ -48,15 +52,7 @@ Elements of the plot
       jitter, on the baseline, and with less transparency. It is of course possible
       to choose :option:`whether to show <markoutliers>` the outliers.
 
-References
-----------
-
-- Hintze, J. L., Nelson, R. D. (1998). Violin plots: A box plot-density trace synergism. The American Statistician 52, 181–184.
-- Kampstra, P. (2008). Beanplot: A boxplot alternative for visual comparison of distributions. Journal of Statistical Software 28, 1–9.
-- Phillips, N. (2017). YaRrr! The pirate's guide to R. The Observer.
-
-
-.. rubric:: Footnotes
+.. rubric:: Footnotes 
 
 .. [#f1] RDI: Raw data + Descriptive statistics + Inferential statistics
 .. [#f2] CI: `Confidence Interval <https://en.wikipedia.org/wiki/Confidence_interval>`_, from Student's T distribution
