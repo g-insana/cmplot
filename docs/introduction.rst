@@ -12,11 +12,15 @@ A Cloudy Mountain Plot is an informative RDI [#f1]_ `categorical distribution <h
 Since by default it does not symmetrically mirror the density curves, it allows immediate comparisions of distributions side-by-side.
 
 The present documentation introduces both what cloudy mountain plots are
-and how to create them, using a plotting function which has been coded in both Julia
-and Python, built on top of the freely available :doc:`plotly` graphic library.
+and how to create them, using a plotting function (``cmplot``) which has been
+coded in both Julia and Python, built on top of the freely available
+:doc:`plotly` graphic library.
 
 Elements of the plot
 --------------------
+
+(Note: check the :doc:`interactive` to see how the following figure actually look
+like when you create it, with the full interactive power of plotly)
 
 .. figure:: img/cloudy_mountain_plot_elements.png
    :alt: elements of a cloudy mountain plot

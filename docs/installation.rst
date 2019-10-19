@@ -1,7 +1,7 @@
 Download and installation
 =========================
 
-cmplot has no platform-specific dependencies and should thus work on all platforms.
+``cmplot`` has no platform-specific dependencies and should thus work on all platforms.
 
 Python instructions
 -------------------

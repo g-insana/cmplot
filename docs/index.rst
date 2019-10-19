@@ -7,6 +7,7 @@ Cloudy Mountain Plot
    :caption: Contents:
 
    introduction
+   interactive
    installation
    quickstart
    tutorial

@@ -75,7 +75,7 @@ Several additional optional arguments can be specified to customize the result, 
 
     boolean, default is True
 
-    Set to False to avoid plotting the cloud of data points
+    Set to False to avoid plotting the :term:`cloud` of data points
 
 .. option:: pointsopacity
 
@@ -87,7 +87,7 @@ Several additional optional arguments can be specified to customize the result, 
 
     'hdi' | 'ci' | 'iqr' | 'none', default is 'hdi'
 
-    To select the method to use for calculating the confidence interval for the inference band around the mean. 'hdi' for Bayesian Highest Density Interval, 'ci' for Confidence Interval based on Student's T, 'iqr' for Inter Quantile Range. Use 'none' to avoid plotting the inference band.
+    To select the method to use for calculating the confidence interval for the inference :term:`band` around the mean. 'hdi' for Bayesian Highest Density Interval, 'ci' for Confidence Interval based on Student's T, 'iqr' for Inter Quantile Range. Use 'none' to avoid plotting the inference band.
 
 .. option:: conf_level
 
