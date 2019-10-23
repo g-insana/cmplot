@@ -1,6 +1,10 @@
 Quickstart
 ==========
 
+All you need is a dataframe with your data [#q1]_ and a single call to the plotting function, as here detailed.
+
+*(See* :doc:`dataframe` *for few lines of code to construct your dataframe in case you don't have one to start with)*
+
 * In Python:
 
 .. code-block:: python
@@ -40,3 +44,6 @@ Quickstart
 
     julia> plot(traces,layout) # plot it
 
+.. rubric:: Footnotes 
+
+.. [#q1] a dataframe with at least one column holding a categorical independent variable - we'll refer to it as xcol - and at least one column holding a continuous dependent variable - which we'll term ycol

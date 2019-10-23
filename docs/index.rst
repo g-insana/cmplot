@@ -12,6 +12,7 @@ Cloudy Mountain Plot
    quickstart
    tutorial
    options
+   dataframe
    plotly
    author
    references
