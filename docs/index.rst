@@ -2,6 +2,8 @@
 Cloudy Mountain Plot
 ====================
 
+A categorical data visualization inspired by Violin, Bean and Pirate Plots.
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
@@ -34,5 +36,5 @@ Copyright
 
 Licensed under the `GNU Affero General Public License <https://choosealicense.com/licenses/agpl-3.0/>`_.
 
-Copyright © `Giuseppe Insana <http://insana.net>`_, 2019-
+Copyright © 2019- `Giuseppe Insana <http://insana.net>`_
 

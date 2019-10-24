@@ -19,7 +19,7 @@ coded in both Julia and Python, built on top of the freely available
 Elements of the plot
 --------------------
 
-(Note: check the :doc:`interactive` to see how the following figure actually look
+(Note: check the :doc:`interactive` to see how the following figure actually looks
 like when you create it, with the full interactive power of plotly)
 
 .. figure:: img/cloudy_mountain_plot_elements.png

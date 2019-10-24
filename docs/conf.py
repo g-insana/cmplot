@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Cloudy Mountain Plot'
-copyright = '2019, Dr Giuseppe Insana'
+copyright = '2019- Dr Giuseppe Insana'
 author = 'Dr Giuseppe Insana'
 master_doc = 'index'
 
