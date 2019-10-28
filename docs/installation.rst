@@ -27,8 +27,15 @@ Julia instructions
 
 .. code-block:: julia
 
-    julia> ] dev https://github.com/g-insana/CMPlot.jl.git
+    julia> import Pkg; Pkg.add("CMPlot")
+
+(from `official Julia registry <https://github.com/JuliaRegistries/General>`_)
+
+or:
+
+.. code-block:: julia
+
+    julia> ]
+    (v1.1) pkg> dev https://github.com/g-insana/CMPlot.jl.git
 
 (from `CMPlot GitHub <https://github.com/g-insana/CMPlot.jl/>`_).
-
-.. NOTYET julia> import Pkg; Pkg.add("CMPlot")
