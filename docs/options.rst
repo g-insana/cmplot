@@ -37,6 +37,12 @@ Several additional optional arguments can be specified to customize the result, 
 
     Override for labelling (and placing) the plots of the categorical variables. Only relevant when using xsuperimposed
 
+.. option:: ylabel
+
+    string or list of strings
+
+    Override for labelling the dependent variables. If not specified, the labels for the dataframe ycol are used.
+
 .. option:: title
 
     string
@@ -64,6 +70,12 @@ Several additional optional arguments can be specified to customize the result, 
     boolean, default is True
 
     Set to False to have the function assign a separate colour when plotting different values of the categorical variable. Leave as True if all should be coloured the same.
+
+.. option:: spanmode
+
+    'soft' | 'hard', default is 'soft'
+
+    Controls the rounding of the kernel density curves or their sharp drop at their extremities. With 'hard' the span goes from the sample's minimum to its maximum value and no further.
 
 .. option:: pointsoverdens
 
