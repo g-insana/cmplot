@@ -17,6 +17,7 @@ Orca is used to export plot.ly plots as images (see `Static image export support
 
 .. code-block:: python
 
+    >>> from pathlib import Path
     >>> p1=go.Figure(*cmplot(mydataframe,xcol="xsymbol"))
     >>> homedir = str(Path.home())+'/'
     >>> p1.write_image(homedir+'output_filename.pdf')
