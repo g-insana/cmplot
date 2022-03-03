@@ -11,7 +11,7 @@ You can refer to the excellent online documentation to modify the layout, create
 Saving your plots
 -----------------
 
-Orca is used to export plot.ly plots as images (see `Static image export support <https://plot.ly/python/getting-started/#static-image-export-support>`_).
+Orca (or more recently Kaleido) is used to export plot.ly plots as images (see `Static image export support <https://plot.ly/python/getting-started/#static-image-export-support>`_).
 
 * In Python:
 
